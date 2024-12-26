@@ -67,7 +67,6 @@ export default {
     },
     handleThresholdReached() {
       this.playSound(); // 音声を再生
-      this.backgroundColor = "yellow"; // 背景を黄色に変更
       // 他の処理が必要であればここに追加可能
     },
     playSound() {
