@@ -31,6 +31,9 @@ export default {
         // 上半分を押した場合
         if (this.isRunning) {
           this.backgroundColor = "red"; // 動作中なら背景を赤色に変更
+          if (Math.floor(this.time) >= this.threshold) {
+            this.resetAndStartTimer(); // タイマーをリセットして再スタート
+          }
         } else {
           this.startTimer(); // タイマーを開始
         }

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PcupTimer :threshold="45" /> <!-- 45秒に設定する例 -->
+    <PcupTimer :threshold="30" /> <!-- 45秒に設定する例 -->
   </div>
 </template>
 
